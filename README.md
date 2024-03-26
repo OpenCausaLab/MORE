@@ -96,12 +96,12 @@ Table 2: Dataset statistics of different hops.
 Please cite our paper if this repository inspires your work.
 ```bibtex
 @article{chen2024quantify,
-        title={Quantifying and Mitigating Unimodal Biases in Multimodal Large Language Models: A Causal Perspective},
-        author={Meiqi Chen and Yixin Cao and Yan Zhang and Chaochao Lu},
-        journal={OpenReview Preprint: oFcDHQfmtr},
- url={https://openreview.net/pdf?id=oFcDHQfmtr}
-        year={2024}
-      }
+          title={Quantifying and Mitigating Unimodal Biases in Multimodal Large Language Models: A Causal Perspective},
+          author={Meiqi Chen and Yixin Cao and Yan Zhang and Chaochao Lu},
+          journal={OpenReview Preprint: oFcDHQfmtr},
+          url={https://openreview.net/pdf?id=oFcDHQfmtr}
+          year={2024}
+        }
 ```
 
 # Contact 
