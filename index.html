@@ -1,24 +1,337 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MORE</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            text-align: center;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-    </style>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>MORE: Quantifying and Mitigating Unimodal Biases in Multimodal Large Language Models</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
 </head>
 <body>
-    <h1>MORE</h1>
-</body>
-</html>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Quantifying and Mitigating Unimodal Biases in Multimodal Large Language Models:<br>A Causal Perspective</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://chenmeiqii.github.io/" target="_blank">Meiqi Chen</a><sup>1,*</sup>,</span>
+                <span class="author-block">
+                  <a href="https://sites.google.com/view/yixin-homepage" target="_blank">Yixin Cao</a><sup>2</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://www.cis.pku.edu.cn/szdw/zzjs/zy.htm" target="_blank">Yan Zhang</a><sup>1,†</sup>,
+                  </span>
+              <span class="author-block">
+                    <a href="https://causallu.com/" target="_blank">Chaochao Lu</a><sup>3,†</sup>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Peking University <sup>2</sup>Singapore Management University <sup>3</sup>Shanghai AI Laboratory</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>This work was done during her internship at Shanghai AI
+Laboratory.</small></span>
+                    <span class="eql-cntrb"><small><br><sup>†</sup>Indicates corresponding author.</small></span>
+                  </div>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/OpenCausaLab/MORE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Datasets</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://openreview.net/pdf?id=oFcDHQfmtr" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Recent advancements in Large Language Models (LLMs) have facilitated the
+development of Multimodal LLMs (MLLMs). Despite their impressive capabilities,
+MLLMs often suffer from an over-reliance on unimodal biases (e.g., language
+bias and vision bias), leading to incorrect answers in complex multimodal
+tasks. To investigate this issue, we propose a causal framework to interpret
+the biases in Visual Question Answering (VQA) problems. Within our framework,
+we devise a causal graph to elucidate the predictions of MLLMs on VQA problems,
+and assess the causal effect of biases through an in-depth causal analysis.
+Motivated by the causal graph, we introduce a novel MORE dataset, consisting of
+12,000 VQA instances. This dataset is designed to challenge MLLMs' abilities,
+necessitating multi-hop reasoning and the surmounting of unimodal biases.
+Furthermore, we propose two strategies to mitigate unimodal biases and enhance
+MLLMs' reasoning capabilities, including a Decompose-Verify-Answer (DeVA)
+framework for limited-access MLLMs and the refinement of open-source MLLMs
+through fine-tuning. Extensive quantitative and qualitative experiments offer
+valuable insights for future research.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/fig-more-generation.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Our framework for generating data of MORE.
+        </h2>
+      </div>
+</div>
+</div>
+</section>
+
+
+<!-- Leaderboard -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Leaderboard</h2>
+        <div class="content has-text-justified">
+          <table border="1">
+          <tr>
+            <th rowspan="2">Model</th>
+            <th rowspan="2">LLM</th>
+            <th rowspan="2">#Params</th>
+            <th colspan="2">Two-Hop</th>
+            <th colspan="2">Three-Hop</th>
+            <th colspan="2">Overall</th>
+          </tr>
+          <tr>
+            <th>Open-ended</th>
+            <th>Multi-choice</th>
+            <th>Open-ended</th>
+            <th>Multi-choice</th>
+            <th>Open-ended</th>
+            <th>Multi-choice</th>
+          </tr>
+          <tr>
+            <td>Random</td>
+            <td>/</td>
+            <td>/</td>
+            <td>/</td>
+            <td>25.0</td>
+            <td>/</td>
+            <td>25.0</td>
+            <td>/</td>
+            <td>25.0</td>
+          </tr>
+           <tr>
+            <td>BLIP-2</td>
+            <td>OPT</td>
+            <td>6.7B</td>
+            <td>4.0</td>
+            <td>16.4</td>
+            <td>1.4</td>
+            <td>15.4</td>
+            <td>2.7</td>
+            <td>15.9</td>
+          </tr>
+          <tr>
+            <td>InstructBlip</td>
+            <td>Vicuna</td>
+            <td>13B</td>
+            <td>3.0</td>
+            <td>17.0</td>
+            <td>1.6</td>
+            <td>16.2</td>
+            <td>2.3</td>
+            <td>16.6</td>
+          </tr>
+          <tr>
+            <td>mPLUG-Owl</td>
+            <td>Llama</td>
+            <td>7B</td>
+            <td>4.0</td>
+            <td>12.4</td>
+            <td>8.2</td>
+            <td>11.4</td>
+            <td>6.1</td>
+            <td>11.9</td>
+          </tr>
+          <tr>
+            <td>LLaVA</td>
+            <td>Llama</td>
+            <td>13B</td>
+            <td>8.0</td>
+            <td>20.8</td>
+            <td>6.8</td>
+            <td>13.6</td>
+            <td>7.4</td>
+            <td>17.5</td>
+          </tr>
+          <tr>
+            <td>GPT-4V</td>
+            <td>-</td>
+            <td>-</td>
+            <td>15.8</td>
+            <td>25.6</td>
+            <td>15.3</td>
+            <td>23.2</td>
+            <td>15.6</td>
+            <td>24.4</td>
+          </tr>
+          <tr>
+            <td>Gemini Pro</td>
+            <td>-</td>
+            <td>-</td>
+            <td>14.2</td>
+            <td>33.5</td>
+            <td>10.1</td>
+            <td>24.4</td>
+            <td>12.2</td>
+            <td>28.9</td>
+        </table>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/fig-example.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Examples of MLLMs' over-reliance on unimodal biases.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/fig-dataset-comparison.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Comparison of MORE with other VQA datasets.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/fig-causal.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Causal graph of MLLM’s Prediction on VQA problems.
+       </h2>
+     </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+  
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+        @article{chen2024quantify,
+        title={Quantifying and Mitigating Unimodal Biases in Multimodal Large Language Models: A Causal Perspective},
+        author={Meiqi Chen and Yixin Cao and Yan Zhang and Chaochao Lu},
+        journal={OpenReview Preprint: oFcDHQfmtr},
+ url={https://openreview.net/pdf?id=oFcDHQfmtr}
+        year={2024}
+      }
+      </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
