@@ -1,5 +1,5 @@
 # MORE
-This is the official project website for the paper [Quantifying and Mitigating Unimodal Biases in Multimodal Large Language Models: A Causal Perspective](https://openreview.net/pdf?id=oFcDHQfmtr).
+This is the official project website for the paper [Quantifying and Mitigating Unimodal Biases in Multimodal Large Language Models: A Causal Perspective](https://arxiv.org/pdf/2403.18346.pdf).
 
 ## Pipeline
 ![Our framework for generating data of MORE](https://github.com/OpenCausaLab/MORE/blob/b71f67529e5bc8fb5ef91665d85b6895d40a937f/static/images/fig-more-generation.png)
@@ -96,12 +96,12 @@ Table 2: Dataset statistics of different hops.
 Please cite our paper if this repository inspires your work.
 ```bibtex
 @article{chen2024quantify,
-          title={Quantifying and Mitigating Unimodal Biases in Multimodal Large Language Models: A Causal Perspective},
-          author={Meiqi Chen and Yixin Cao and Yan Zhang and Chaochao Lu},
-          journal={OpenReview Preprint: oFcDHQfmtr},
-          url={https://openreview.net/pdf?id=oFcDHQfmtr}
-          year={2024}
-        }
+        title={Quantifying and Mitigating Unimodal Biases in Multimodal Large Language Models: A Causal Perspective},
+        author={Meiqi Chen and Yixin Cao and Yan Zhang and Chaochao Lu},
+        journal={arXiv preprint arXiv:2403.18346},
+        url={https://arxiv.org/pdf/2403.18346.pdf}
+        year={2024}
+      }
 ```
 
 # Contact 
