@@ -11,7 +11,7 @@ This is the official project website for the paper [Quantifying and Mitigating U
 | ---------------- | --------------- | ------------------- | ----------- | -------------------------- | --------- | ------ |
 | Visual7W (Zhu et al., 2016) | ❌              | ❌                   | Open-ended  | ❌                        | ❌       | 327.9K |
 | VQA (v2) (Goyal et al., 2017) | ❌              | ❌                   | Open-ended  | ❌                        | ❌       | 1.1M   |
-| FVQA (Wang et al., 2017) | ✅              | ❌                   | Open-ended  | ❌                        | ❌       | 5.8K   |
+| FVQA (Wang et al., 2017) | ✅              | ❌                   | Open-ended  | ❌                        | ✅       | 5.8K   |
 | OKVQA (Marino et al., 2019) | ✅              | ❌                   | Open-ended  | ❌                        | ❌       | 14K    |
 | S3VQA (Jain et al., 2021) | ✅              | ❌                   | Open-ended  | ❌                        | ❌       | 7.5K   |
 | A-OKVQA (Schwenk et al., 2022) | ✅              | ❌                   | Multi-choice | ❌                        | ✅       | 23.7K  |
