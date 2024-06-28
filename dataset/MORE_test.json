@@ -447,7 +447,7 @@
             "Mah\u00f3n",
             "Mayonnaise",
             "frank people",
-            "The name \"Thailand\" originates from the Thai word \"\u0e44\u0e17\u0e22\" (pr. Thai), which is itself derived from the word \"Tai\" meaning \"free\" or \"free man\". The official name of the country, \"Prathet Thai\" (\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e44\u0e17\u0e22), means \"land of the free\", reflecting Thailand's distinction of never having been colonized by a European power."
+            "Thailand"
         ]
     },
     {
@@ -3217,7 +3217,7 @@
         "question": "What is this plant an instance of, and how is it different from?",
         "options": [
             "Gannet",
-            "This plant is an instance of a species within the genus Rosa, commonly known as a rose. It differs from other plants in its genus by its unique flower colors, petal shapes, and growth habits, which are the result of specific breeding or natural variation. Roses are distinguished from other plants by their woody stems, thorny branches, and aromatic flowers, which come in a variety of colors and sizes depending on the species and cultivar.",
+            "Rosa",
             "cladex/testcases",
             "Morus (plant)"
         ]
@@ -5275,7 +5275,7 @@
         "options": [
             "Abronia (plant)",
             "cladex/testcases",
-            "This plant is an instance of a species within the genus Rosa, commonly known as a rose. It differs from other plants in its genus by its unique flower color, petal shape, and fragrance, which are characteristics that vary widely among roses, allowing for a vast diversity within the genus.",
+            "Rosa",
             "arboreal alligator lizard"
         ]
     },
@@ -5659,7 +5659,7 @@
         "question": "What is a part of the instance of this building?",
         "options": [
             "Historic plaques",
-            "Eiffel Tower: A part of the instance of this building is the observation deck.",
+            "Eiffel Tower",
             "Chinese steles",
             "Memorial to the Murdered Jews of Europe"
         ]
@@ -6057,7 +6057,7 @@
             "hudson, henry",
             "george washinton",
             "George Washington Bridge",
-            "The Golden Gate Bridge is named after the Golden Gate Strait, the entrance to the San Francisco Bay from the Pacific Ocean."
+            "the Golden Gate Strait"
         ]
     },
     {
@@ -9137,7 +9137,7 @@
             "Bodleian Library Record",
             "Radcliffe Camera",
             "Conference of Colleges",
-            "This building is a part of a complex, which is itself a part of a UNESCO World Heritage Site."
+            "UNESCO World Heritage Site."
         ]
     },
     {
@@ -9739,7 +9739,7 @@
         "image_id": "oven_05017771",
         "question": "What are the geographical features of the country where this park is located?",
         "options": [
-            "The country where this park is located features diverse geographical features including mountains, rivers, forests, and plains.",
+            "mountains, rivers, forests, and plains",
             "Geography of the united states",
             "Yosemite National Park",
             "geography of the yosemite area"
