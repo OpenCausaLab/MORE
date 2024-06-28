@@ -9144,7 +9144,7 @@
             "The Alpide belt"
         ],
         "options": [
-            "Himalayas, which is part of the Himalayan mountain range.",
+            "Himalayas",
             "The Alpide belt",
             "peaks and passes of the alps",
             "Schw\u00e4galp Pass"
@@ -9167,7 +9167,7 @@
             "Schw\u00e4galp Pass",
             "Schwaegalp pass"
         ],
-        "language_option": "Himalayas, which is part of the Himalayan mountain range.",
+        "language_option": "Himalayas",
         "semantic_misleading_option": [
             "peaks and passes of the alps",
             "alps",
@@ -13657,7 +13657,7 @@
             "stadacona"
         ],
         "options": [
-            "The person it is named after",
+            "New York City",
             "Calgary",
             "stadacona",
             "calgary, mull"
@@ -21975,7 +21975,7 @@
         ],
         "options": [
             "Ch\u00e4serrugg",
-            "Himalayas, which is part of the Asian mountain system.",
+            "Himalayas",
             "western alps",
             "Appenzell Alps"
         ],
@@ -21986,7 +21986,7 @@
             "Ch\u00e4serrugg",
             "ch\u00e4serrugg"
         ],
-        "language_option": "Himalayas, which is part of the Asian mountain system.",
+        "language_option": "Himalayas",
         "semantic_misleading_option": [
             "Appenzell Alps",
             "appenzell alps"
@@ -70319,7 +70319,7 @@
         "options": [
             "geography of the yosemite area",
             "Geography of the united states",
-            "The geographical features of the country where this park is located include mountains, rivers, forests, and deserts.",
+            "mountains, rivers, forests, and deserts",
             "Yosemite National Park"
         ],
         "correct_option_idx": 1,
@@ -70353,7 +70353,7 @@
             "yosemite national park, california",
             "Yosemite"
         ],
-        "language_option": "The geographical features of the country where this park is located include mountains, rivers, forests, and deserts.",
+        "language_option": "mountains, rivers, forests, and deserts",
         "semantic_misleading_option": [
             "geography of the yosemite area",
             "Geography of the Yosemite area"
@@ -71501,7 +71501,7 @@
             "geography of the yosemite area",
             "Geography of the united states",
             "Yosemite National Park",
-            "The country where this park is located features diverse geographical features including mountains, rivers, forests, and plains."
+            "mountains, rivers, forests, and plains"
         ],
         "correct_option_idx": 1,
         "vision_option": [
@@ -78009,7 +78009,7 @@
             "US Geography"
         ],
         "options": [
-            "The geographical features of the country where this park is located include mountains, rivers, forests, and a coastline.",
+            "mountains, rivers, forests, and a coastline",
             "Geography of the united states",
             "geography of the yosemite area",
             "Yosemite National Park"
@@ -78045,7 +78045,7 @@
             "yosemite national park, california",
             "Yosemite"
         ],
-        "language_option": "The geographical features of the country where this park is located include mountains, rivers, forests, and a coastline.",
+        "language_option": "mountains, rivers, forests, and a coastline",
         "semantic_misleading_option": [
             "geography of the yosemite area",
             "Geography of the Yosemite area"
@@ -78252,7 +78252,7 @@
             "Thomas Bodley"
         ],
         "options": [
-            "This building is part of the Smithsonian Institution and is named after James Smithson.",
+            "James Smithson",
             "Radcliffe Camera",
             "sir thomas bodley",
             "john radcliffe (physician)"
@@ -78268,7 +78268,7 @@
             "Radcliffe Camera",
             "Rad Cam"
         ],
-        "language_option": "This building is part of the Smithsonian Institution and is named after James Smithson.",
+        "language_option": "James Smithson",
         "semantic_misleading_option": [
             "john radcliffe (physician)",
             "John Radcliffe (physician)",
@@ -82654,7 +82654,7 @@
             "US Geography"
         ],
         "options": [
-            "The geographical features of the country where this park is located include mountains, rivers, forests, and deserts.",
+            "mountains, rivers, forests, and deserts",
             "geography of the yosemite area",
             "Geography of the united states",
             "Yosemite National Park"
@@ -82690,7 +82690,7 @@
             "yosemite national park, california",
             "Yosemite"
         ],
-        "language_option": "The geographical features of the country where this park is located include mountains, rivers, forests, and deserts.",
+        "language_option": "mountains, rivers, forests, and deserts",
         "semantic_misleading_option": [
             "geography of the yosemite area",
             "Geography of the Yosemite area"
