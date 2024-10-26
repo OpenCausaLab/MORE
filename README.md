@@ -7,7 +7,8 @@ This is the official project website for the paper [Quantifying and Mitigating U
 
 ## Dataset
 ### Link
-[MORE Data](https://github.com/OpenCausaLab/MORE/tree/main/dataset)
+For images: [OVEN Images](https://huggingface.co/datasets/ychenNLP/oven)
+For question, answers, etc: [MORE Data](https://github.com/OpenCausaLab/MORE/tree/main/dataset)
 
 ### Comparison
 | Datasets         | Knowledge-based | Multi-hop Reasoning | Answer Type | Unimodal Biases Evaluation | Rationale | # Size |
