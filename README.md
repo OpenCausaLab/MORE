@@ -7,7 +7,8 @@ This is the official project website for the paper [Quantifying and Mitigating U
 
 ## Dataset
 ### Link
-For images: [OVEN Images](https://huggingface.co/datasets/ychenNLP/oven)
+For images: Download from [OVEN Images](https://huggingface.co/datasets/ychenNLP/oven) and put it in 'InfoSeek/' folder
+
 For question, answers, etc: [MORE Data](https://github.com/OpenCausaLab/MORE/tree/main/dataset)
 
 ### Comparison
@@ -94,6 +95,10 @@ Table 1: Comparison of MORE with other VQA datasets, highlighting its incorporat
 
 Table 2: Dataset statistics of different hops.
 
+## Evaluation
+```
+python evaluate_model.py --model [MODEL_NAME] --cache_dir [MORE_DATA_DIR]
+```
 
 
 ## Citation
