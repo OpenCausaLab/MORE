@@ -9,7 +9,7 @@ This is the official project website for the paper [Quantifying and Mitigating U
 ### Link
 For images: Download from [OVEN Images](https://huggingface.co/datasets/ychenNLP/oven) and put it in 'InfoSeek/' folder
 
-For question, answers, etc: [MORE Data]([https://github.com/OpenCausaLab/MORE/tree/main/dataset](https://huggingface.co/datasets/OpenCausaLab/MORE))
+For question, answers, etc: [MORE Data](https://huggingface.co/datasets/OpenCausaLab/MORE)
 ```python
 from datasets import load_dataset
 
