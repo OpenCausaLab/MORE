@@ -9,7 +9,12 @@ This is the official project website for the paper [Quantifying and Mitigating U
 ### Link
 For images: Download from [OVEN Images](https://huggingface.co/datasets/ychenNLP/oven) and put it in 'InfoSeek/' folder
 
-For question, answers, etc: [MORE Data](https://github.com/OpenCausaLab/MORE/tree/main/dataset)
+For question, answers, etc: [MORE Data]([https://github.com/OpenCausaLab/MORE/tree/main/dataset](https://huggingface.co/datasets/OpenCausaLab/MORE))
+```python
+from datasets import load_dataset
+
+ds = load_dataset("OpenCausaLab/MORE")
+```
 
 ### Comparison
 | Datasets         | Knowledge-based | Multi-hop Reasoning | Answer Type | Unimodal Biases Evaluation | Rationale | # Size |
@@ -28,7 +33,6 @@ Table 1: Comparison of MORE with other VQA datasets, highlighting its incorporat
 
 
 ### Data Format
-#### Train / Val
 ```JSON5
 {
         "data_id": "more_val_0",
@@ -64,20 +68,6 @@ Table 1: Comparison of MORE with other VQA datasets, highlighting its incorporat
         ],
         "rationale": "To answer the question, first, I need to identify what this aircraft is. From the image, this aircraft is Dornier Flugzeugwerke. Then, I need to infer the parent organization of Dornier Flugzeugwerke, which is Daimler Benz. Then, I need to infer the headquarters location of Daimler Benz, which is stuttgard. Therefore, the answer is: stuttgard."
     }
-```
-#### Test
-```JSON5
-{
-        "data_id": "more_test_0",
-        "image_id": "oven_04953332",
-        "question": "Which body of water is located in or next to the place where the architect of this building died?",
-        "options": [
-            "Palace of Justice, Bucharest",
-            "izvorul oticului river",
-            "river seine",
-            "Lake Zurich"
-        ]
-}
 ```
 
 ### Statistics
